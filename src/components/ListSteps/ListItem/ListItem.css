@@ -1,0 +1,17 @@
+.list-item {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.list-item-button-edit, .list-item-button-delete {
+	background-color: inherit;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin-right: 2px;
+}
